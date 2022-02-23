@@ -28,6 +28,12 @@ export default function Intro() {
           <h3>
             Freelance <span ref={textRef}></span>
           </h3>
+          <h4>
+            If you want to know me better
+            <span>
+              <a href="#about"> About Me.</a>
+            </span>
+          </h4>
         </div>
         <a href="#portfolio">
           <KeyboardArrowDownIcon sx={{ fontSize: 100 }} className="downArrow" />
