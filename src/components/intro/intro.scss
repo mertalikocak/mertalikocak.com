@@ -1,0 +1,85 @@
+.intro {
+  background-color: white;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='100%' height='100%' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1018%26quot%3b)' fill='none'%3e%3cpath d='M793.117%2c190.307C833.835%2c188.625%2c859.695%2c151.476%2c879.587%2c115.908C898.84%2c81.482%2c913.612%2c41.895%2c895.803%2c6.7C876.481%2c-31.484%2c835.907%2c-55.572%2c793.117%2c-54.973C751.263%2c-54.387%2c715.715%2c-27.031%2c695.295%2c9.508C675.407%2c45.096%2c673.923%2c87.746%2c693.323%2c123.602C713.73%2c161.319%2c750.27%2c192.077%2c793.117%2c190.307' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M546.964%2c221.528C582.416%2c221.776%2c610.676%2c195.311%2c628.149%2c164.463C645.331%2c134.128%2c652.78%2c96.737%2c634.446%2c67.084C616.817%2c38.571%2c580.486%2c32.957%2c546.964%2c33.153C513.892%2c33.347%2c478.435%2c39.847%2c461.239%2c68.098C443.506%2c97.232%2c451.087%2c133.568%2c467.722%2c163.342C484.853%2c194.004%2c511.842%2c221.282%2c546.964%2c221.528' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1160.361%2c322.029C1175.958%2c322.177%2c1193.163%2c318.862%2c1200.633%2c305.169C1207.908%2c291.834%2c1200.721%2c276.121%2c1192.305%2c263.475C1184.967%2c252.449%2c1173.605%2c244.801%2c1160.361%2c244.656C1146.859%2c244.509%2c1134.563%2c251.453%2c1127.187%2c262.764C1118.98%2c275.35%2c1114.052%2c291.306%2c1121.391%2c304.417C1128.854%2c317.748%2c1145.084%2c321.884%2c1160.361%2c322.029' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1087.047%2c233.613C1138.026%2c236.255%2c1197.07%2c234.828%2c1223.47%2c191.138C1250.39%2c146.587%2c1228.764%2c90.505%2c1199.559%2c47.417C1174.227%2c10.043%2c1132.162%2c-8.353%2c1087.047%2c-10.134C1037.9%2c-12.074%2c983.487%2c-4.198%2c958.022%2c37.882C931.925%2c81.006%2c945.357%2c136.078%2c973.099%2c178.163C998.017%2c215.963%2c1041.834%2c231.27%2c1087.047%2c233.613' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1018'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+
+  display: flex;
+
+  .left {
+    flex: 0.4;
+    overflow: hidden;
+
+    .imgContainer {
+      width: 700px;
+      height: 700px;
+      background-color: rgba(142, 29, 28, 1);
+      border-radius: 50%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      float: right;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+  .right {
+    flex: 0.5;
+    position: relative;
+
+    .wrapper {
+      width: 100%;
+      height: 90%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        font-size: 60px;
+        margin: 10px 0;
+      }
+
+      h2 {
+        font-size: 35px;
+      }
+
+      h3 {
+        font-size: 30px;
+
+        span {
+          font-size: inherit;
+          color: crimson;
+        }
+
+        .ityped-cursor {
+          animation: blink 1s infinite;
+        }
+        @keyframes blink {
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0;
+          }
+        }
+      }
+    }
+    a {
+      position: absolute;
+      bottom: 10px;
+      left: 40%;
+
+      .downArrow {
+        animation: arrowBlink 2s infinite;
+        color: black;
+      }
+
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}

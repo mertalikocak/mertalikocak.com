@@ -1,0 +1,59 @@
+@import "../../global.scss";
+
+.portfolio {
+  background-color: white;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='100%' height='100%' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1015%26quot%3b)' fill='none'%3e%3cpath d='M377.823%2c539.2C401.93%2c538.019%2c421.119%2c521.136%2c432.892%2c500.066C444.335%2c479.587%2c447.947%2c454.873%2c436.329%2c434.493C424.612%2c413.938%2c401.466%2c404.352%2c377.823%2c403.463C352.236%2c402.501%2c324.918%2c408.189%2c311.163%2c429.786C296.541%2c452.744%2c298.381%2c482.716%2c312.543%2c505.961C326.159%2c528.311%2c351.683%2c540.48%2c377.823%2c539.2' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M166.413%2c257.647C195.63%2c255.984%2c224.408%2c245.076%2c239.01%2c219.715C253.584%2c194.402%2c248.416%2c164.128%2c235.275%2c138.042C220.334%2c108.384%2c199.621%2c75.391%2c166.413%2c75.608C133.394%2c75.824%2c115.598%2c110.334%2c99.09%2c138.932C82.586%2c167.523%2c61.652%2c200.165%2c77.937%2c228.882C94.333%2c257.795%2c133.229%2c259.536%2c166.413%2c257.647' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1399.434%2c283.894C1454.467%2c283.68%2c1514.463%2c276.295%2c1543.588%2c229.601C1574.018%2c180.815%2c1564.432%2c117.439%2c1533.487%2c68.979C1504.831%2c24.103%2c1452.668%2c2.767%2c1399.434%2c3.855C1348.223%2c4.901%2c1302.281%2c31.206%2c1274.547%2c74.27C1244.004%2c121.696%2c1224.451%2c182.271%2c1253.323%2c230.732C1281.754%2c278.454%2c1343.885%2c284.11%2c1399.434%2c283.894' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1195.482%2c265.417C1233.257%2c268.473%2c1278.457%2c269.344%2c1297.576%2c236.622C1316.774%2c203.764%2c1294.156%2c164.54%2c1272.84%2c133.015C1254.686%2c106.168%2c1227.889%2c85.952%2c1195.482%2c85.635C1162.535%2c85.312%2c1131.643%2c102.776%2c1115.455%2c131.474C1099.533%2c159.7%2c1101.865%2c194.311%2c1118.486%2c222.131C1134.672%2c249.221%2c1164.028%2c262.872%2c1195.482%2c265.417' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M822.891%2c425.989C851.71%2c425.616%2c878.007%2c410.462%2c892.796%2c385.724C908%2c360.291%2c910.527%2c328.966%2c896.494%2c302.869C881.704%2c275.365%2c854.112%2c255.086%2c822.891%2c255.724C792.567%2c256.344%2c769.029%2c279.251%2c754.321%2c305.776C740.128%2c331.372%2c735.281%2c362.151%2c749.782%2c387.574C764.401%2c413.204%2c793.387%2c426.371%2c822.891%2c425.989' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1015'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+  }
+  ul {
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  .container {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .item {
+      width: 220px;
+      height: 150px;
+      border-radius: 20px;
+      border: 1px solid rgb(240, 232, 232);
+      margin: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      position: relative;
+      transition: all 0.5s ease;
+      cursor: pointer;
+
+      h3 {
+        position: absolute;
+        font-size: 20px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+      }
+      &:hover {
+        background-color: $mainColor;
+        img {
+          opacity: 0.2;
+          z-index: 0;
+        }
+      }
+    }
+  }
+}
