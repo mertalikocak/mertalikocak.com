@@ -1,3 +1,117 @@
-.testimonials {
-  background-color: lightcoral;
+@import "../../global.scss";
+.about {
+  background-color: #f7f7f7;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='100%' height='100%' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1058%26quot%3b)' fill='none'%3e%3cpath d='M375.143%2c567.721C402.984%2c566.447%2c419.853%2c539.767%2c432.648%2c515.008C444.126%2c492.799%2c450.023%2c467.419%2c438.424%2c445.272C426.01%2c421.568%2c401.877%2c406.332%2c375.143%2c405.208C346.278%2c403.994%2c316.481%2c414.58%2c301.92%2c439.533C287.263%2c464.65%2c293.312%2c495.473%2c307.736%2c520.725C322.297%2c546.216%2c345.817%2c569.063%2c375.143%2c567.721' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M491.058%2c207.907C526.796%2c206.535%2c551.559%2c175.336%2c567.571%2c143.357C581.709%2c115.122%2c581.745%2c83.219%2c567.634%2c54.971C551.62%2c22.914%2c526.891%2c-10.102%2c491.058%2c-9.807C455.516%2c-9.514%2c433.723%2c25.048%2c416.637%2c56.215C400.436%2c85.769%2c388.797%2c119.394%2c403.642%2c149.652C420.172%2c183.345%2c453.556%2c209.347%2c491.058%2c207.907' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1385.621%2c429.842C1404.854%2c428.957%2c1421.446%2c418.708%2c1432.199%2c402.737C1444.684%2c384.193%2c1454.95%2c361.572%2c1445.095%2c341.507C1434.336%2c319.602%2c1409.981%2c306.429%2c1385.621%2c307.902C1363.259%2c309.254%2c1348.209%2c328.382%2c1337.424%2c348.018C1327.153%2c366.72%2c1320.15%2c389.007%2c1330.979%2c407.392C1341.69%2c425.577%2c1364.538%2c430.812%2c1385.621%2c429.842' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M758.888%2c356.458C809.217%2c356.62%2c855.843%2c327.398%2c878.875%2c282.648C900.236%2c241.144%2c886.436%2c193.629%2c863.666%2c152.88C840.157%2c110.81%2c807.044%2c69.814%2c758.888%2c67.922C708.133%2c65.928%2c663.443%2c99.625%2c638.808%2c144.045C614.924%2c187.112%2c615.997%2c239.009%2c640.232%2c281.879C664.872%2c325.466%2c708.818%2c356.297%2c758.888%2c356.458' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M690.474%2c507.302C725.544%2c507.182%2c756.4%2c486.514%2c774.427%2c456.432C793.025%2c425.398%2c799.39%2c386.854%2c781.498%2c355.408C763.437%2c323.665%2c726.902%2c306.263%2c690.474%2c308.881C657.803%2c311.229%2c635.897%2c338.629%2c619.601%2c367.043C603.416%2c395.264%2c590.849%2c427.971%2c605.521%2c457.008C621.428%2c488.488%2c655.203%2c507.422%2c690.474%2c507.302' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M795.842%2c430.923C818.421%2c430.285%2c838.639%2c419.151%2c851.199%2c400.377C865.587%2c378.87%2c877.365%2c351.222%2c863.97%2c329.083C850.828%2c307.361%2c821.224%2c308.339%2c795.842%2c308.88C771.793%2c309.393%2c745.591%2c311.662%2c732.565%2c331.884C718.671%2c353.454%2c720.971%2c382.046%2c734.785%2c403.668C747.646%2c423.798%2c771.964%2c431.598%2c795.842%2c430.923' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M61.887%2c329.938C105.844%2c328.367%2c142.083%2c300.944%2c165.792%2c263.896C191.979%2c222.977%2c212.047%2c173.244%2c189.806%2c130.053C166.116%2c84.048%2c113.587%2c59.949%2c61.887%2c62.12C13.598%2c64.148%2c-25.039%2c97.915%2c-48.683%2c140.069C-71.741%2c181.178%2c-79.445%2c231.08%2c-55.726%2c271.811C-32.139%2c312.315%2c15.046%2c331.612%2c61.887%2c329.938' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1058'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  display: flex;
+
+  @include mobile {
+    background-image: none;
+  }
+
+  .glass {
+    /* From https://css.glass */
+    width: 100%;
+    background: rgba(255, 255, 255, 0.44);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(6.2px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    margin: 2%;
+    display: flex;
+    @include mobile {
+      margin: 3%;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .right {
+      height: 100%;
+      flex: 1;
+      @include mobile {
+        flex: 0.5;
+      }
+
+      .itemContainer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 20%;
+        @include mobile {
+          margin-left: 0;
+          align-items: center;
+        }
+
+        span {
+          display: flex;
+          align-items: center;
+          margin-bottom: 25px;
+          font-size: 20px;
+          @include mobile {
+            font-size: 16px;
+            margin-bottom: 3px;
+          }
+
+          .icon {
+            margin-right: 5px;
+            font-size: 30px;
+            @include mobile {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+    .left {
+      height: 100%;
+      flex: 1;
+      @include mobile {
+        flex: 1.5;
+      }
+
+      .content {
+        height: 80%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        @include mobile {
+          width: 100%;
+          height: 90%;
+        }
+        img {
+          margin-left: 20%;
+          width: 60%;
+          @include mobile {
+            margin-left: 0;
+            width: 70%;
+          }
+        }
+
+        span {
+          margin-left: 20%;
+          font-size: 20px;
+          a {
+            text-decoration: none;
+            color: $mainColor;
+            font-weight: 600;
+          }
+          p {
+            font-size: 24px;
+            color: white;
+            background-color: black;
+            display: inline;
+            @include mobile {
+              font-size: 18px;
+            }
+          }
+          @include mobile {
+            margin-left: 0;
+            font-size: 14px;
+            padding: 5px;
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,8 +1,16 @@
+@import "../../global.scss";
+
 .intro {
-  background-color: white;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='100%' height='100%' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1018%26quot%3b)' fill='none'%3e%3cpath d='M793.117%2c190.307C833.835%2c188.625%2c859.695%2c151.476%2c879.587%2c115.908C898.84%2c81.482%2c913.612%2c41.895%2c895.803%2c6.7C876.481%2c-31.484%2c835.907%2c-55.572%2c793.117%2c-54.973C751.263%2c-54.387%2c715.715%2c-27.031%2c695.295%2c9.508C675.407%2c45.096%2c673.923%2c87.746%2c693.323%2c123.602C713.73%2c161.319%2c750.27%2c192.077%2c793.117%2c190.307' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M546.964%2c221.528C582.416%2c221.776%2c610.676%2c195.311%2c628.149%2c164.463C645.331%2c134.128%2c652.78%2c96.737%2c634.446%2c67.084C616.817%2c38.571%2c580.486%2c32.957%2c546.964%2c33.153C513.892%2c33.347%2c478.435%2c39.847%2c461.239%2c68.098C443.506%2c97.232%2c451.087%2c133.568%2c467.722%2c163.342C484.853%2c194.004%2c511.842%2c221.282%2c546.964%2c221.528' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1160.361%2c322.029C1175.958%2c322.177%2c1193.163%2c318.862%2c1200.633%2c305.169C1207.908%2c291.834%2c1200.721%2c276.121%2c1192.305%2c263.475C1184.967%2c252.449%2c1173.605%2c244.801%2c1160.361%2c244.656C1146.859%2c244.509%2c1134.563%2c251.453%2c1127.187%2c262.764C1118.98%2c275.35%2c1114.052%2c291.306%2c1121.391%2c304.417C1128.854%2c317.748%2c1145.084%2c321.884%2c1160.361%2c322.029' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1087.047%2c233.613C1138.026%2c236.255%2c1197.07%2c234.828%2c1223.47%2c191.138C1250.39%2c146.587%2c1228.764%2c90.505%2c1199.559%2c47.417C1174.227%2c10.043%2c1132.162%2c-8.353%2c1087.047%2c-10.134C1037.9%2c-12.074%2c983.487%2c-4.198%2c958.022%2c37.882C931.925%2c81.006%2c945.357%2c136.078%2c973.099%2c178.163C998.017%2c215.963%2c1041.834%2c231.27%2c1087.047%2c233.613' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1018'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  background-color: #f7f7f7;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='100%' height='100%' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1060%26quot%3b)' fill='none'%3e%3cpath d='M279.272%2c478.695C309.644%2c480.249%2c335.525%2c457.427%2c349.315%2c430.321C361.888%2c405.607%2c357.697%2c376.61%2c343.244%2c352.947C329.453%2c330.368%2c305.727%2c315.304%2c279.272%2c315.643C253.367%2c315.975%2c230.435%2c331.781%2c218.082%2c354.553C206.289%2c376.293%2c209.701%2c401.551%2c220.636%2c423.735C233.33%2c449.488%2c250.598%2c477.227%2c279.272%2c478.695' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M681.297%2c475.666C716.476%2c475.611%2c753.155%2c468.953%2c773.058%2c439.946C795.601%2c407.09%2c800.864%2c363.921%2c782.081%2c328.78C762.284%2c291.741%2c723.293%2c267.867%2c681.297%2c268.266C639.936%2c268.659%2c603.328%2c294.214%2c583.774%2c330.663C565.246%2c365.198%2c567.166%2c407.713%2c589.038%2c440.233C608.743%2c469.531%2c645.989%2c475.721%2c681.297%2c475.666' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1121.342%2c180.781C1139.604%2c181.925%2c1160.449%2c180.369%2c1169.989%2c164.755C1179.787%2c148.72%2c1172.134%2c129.04%2c1162.987%2c112.626C1153.508%2c95.617%2c1140.795%2c78.321%2c1121.342%2c77.464C1100.753%2c76.557%2c1081.706%2c90.06%2c1072.814%2c108.652C1064.88%2c125.241%2c1071.957%2c143.998%2c1082.222%2c159.255C1091.127%2c172.49%2c1105.421%2c179.783%2c1121.342%2c180.781' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M945.945%2c520.124C961.269%2c520.187%2c977.192%2c515.967%2c985.237%2c502.924C993.631%2c489.315%2c991.897%2c472.169%2c984.152%2c458.18C976.133%2c443.695%2c962.495%2c431.475%2c945.945%2c431.952C929.984%2c432.412%2c919.05%2c446.277%2c911.373%2c460.279C904.068%2c473.602%2c899.61%2c489.447%2c907.21%2c502.603C914.808%2c515.755%2c930.756%2c520.062%2c945.945%2c520.124' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1224.4%2c224.676C1279.082%2c224.628%2c1332.902%2c199.239%2c1358.52%2c150.929C1382.846%2c105.056%2c1369.406%2c49.542%2c1339.947%2c6.784C1314.385%2c-30.318%2c1269.402%2c-41.554%2c1224.4%2c-43.738C1173.725%2c-46.197%2c1116.466%2c-47.214%2c1087.646%2c-5.46C1055.856%2c40.597%2c1061.281%2c103.056%2c1089.869%2c151.166C1117.848%2c198.25%2c1169.63%2c224.724%2c1224.4%2c224.676' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1063.076%2c162.639C1079.032%2c161.863%2c1094.666%2c156.553%2c1103.301%2c143.113C1112.677%2c128.519%2c1114.768%2c110.057%2c1106.735%2c94.683C1098.104%2c78.164%2c1081.714%2c66.098%2c1063.076%2c66.128C1044.483%2c66.158%2c1029.063%2c78.783%2c1019.662%2c94.824C1010.137%2c111.077%2c1005.299%2c131.518%2c1015.456%2c147.383C1025.088%2c162.429%2c1045.232%2c163.506%2c1063.076%2c162.639' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1041.116%2c488.123C1081.932%2c488.757%2c1120.941%2c468.009%2c1140.851%2c432.373C1160.319%2c397.528%2c1154.732%2c355.284%2c1134.587%2c320.826C1114.652%2c286.727%2c1080.614%2c261.559%2c1041.116%2c261.779C1001.955%2c261.997%2c968.67%2c287.747%2c949.433%2c321.858C930.561%2c355.321%2c928.059%2c395.713%2c946.61%2c429.355C965.809%2c464.172%2c1001.361%2c487.505%2c1041.116%2c488.123' fill='rgba(142%2c 29%2c 28%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1060'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
 
   display: flex;
+
+  @include mobile {
+    background-image: none;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .left {
     flex: 0.5;
@@ -16,8 +24,19 @@
       display: flex;
       align-items: flex-end;
       justify-content: center;
+
+      @include mobile {
+        border-radius: 50% !important;
+        width: 400px;
+        height: 400px;
+        align-items: start;
+      }
       img {
         height: 100%;
+
+        @include mobile {
+          height: 100%;
+        }
       }
     }
   }
@@ -33,17 +52,33 @@
       flex-direction: column;
       justify-content: center;
 
+      @include mobile {
+        padding-left: 0;
+        align-items: center;
+        justify-content: start;
+        margin-top: 2%;
+      }
+
       h1 {
         font-size: 60px;
         margin: 10px 0;
+        @include mobile {
+          font-size: 40px;
+        }
       }
 
       h2 {
         font-size: 35px;
+        @include mobile {
+          font-size: 25px;
+        }
       }
 
       h3 {
         font-size: 30px;
+        @include mobile {
+          font-size: 23px;
+        }
 
         span {
           font-size: inherit;
@@ -85,10 +120,24 @@
       position: absolute;
       bottom: 10px;
       left: 40%;
+      text-decoration: none;
+
+      span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        font-weight: 400;
+        animation: arrowBlink 2s infinite;
+        color: black;
+        margin-bottom: -20px;
+      }
 
       .downArrow {
         animation: arrowBlink 2s infinite;
         color: black;
+        @include mobile {
+        }
       }
 
       @keyframes arrowBlink {

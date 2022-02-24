@@ -1,1 +1,16 @@
 $mainColor: rgba(142, 29, 28, 1);
+
+$width: 800px;
+$widthWorks: 1160px;
+
+@mixin worksForMobile {
+  @media ( max-width: #{$widthWorks}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media ( max-width: #{$width}) {
+    @content;
+  }
+}

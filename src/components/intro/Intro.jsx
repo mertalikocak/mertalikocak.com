@@ -36,6 +36,7 @@ export default function Intro() {
           </h4>
         </div>
         <a href="#portfolio">
+          <span>Portfolio</span>
           <KeyboardArrowDownIcon sx={{ fontSize: 100 }} className="downArrow" />
         </a>
       </div>
